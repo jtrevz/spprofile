@@ -1,0 +1,73 @@
+body {
+    background-color: aliceblue;
+}
+
+/* Nav Styling */
+
+#nav {
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+#namepic{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#propic{
+    max-height: 100px;
+    flex-direction: row;
+    padding: 8px;
+}
+
+#name{
+    flex-direction: row;
+    margin: 10px;
+    
+}
+
+#links ul{
+    display: flex;
+    flex-direction: row;
+}
+
+.link {
+    list-style-type: none;
+    flex-direction: row;
+    margin: 10px;
+    text-decoration: none;
+}
+
+
+.content-container{
+    background-color: white;
+    width: 100%;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+/* About Me Styling */
+
+/* Projects Styling */
+
+.projectpic {
+    height: 120px;
+    margin: 5px;
+}
+
+/* Contact Styling */
+
